@@ -1,6 +1,6 @@
 (ns flooringops.advisor-test
   "Unit tests of `flooringops.advisor` proposal generation."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [flooringops.advisor :as adv]
             [flooringops.store :as store]))
 

@@ -1,6 +1,6 @@
 (ns flooringops.phase-test
   "Unit tests of `flooringops.phase` rollout logic."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [flooringops.phase :as phase]))
 
 (deftest phase-0-read-only
